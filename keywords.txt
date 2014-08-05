@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map for Library "eRCaGuy_WDTimer"
+#
+# IMPORTANT: THERE CAN ONLY BE A *SINGLE TAB* (NOT A SPACE, NOT TWO TABS, ETC) after the 
+# Keyword and before the identifier (ex: KEYWORD2), in order for the Arduino 1.5.6-r2 IDE 
+# to properly do the syntax highlighting.
+# ~Gabriel Staples, 30 May 2014
+# http://electricrcaircraftguy.blogspot.com/
+#######################################
+
+#######################################
+# Datatypes & Classes (KEYWORD1)
+#######################################
+eRCaGuy_WDTimer	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+attachInterrupt	KEYWORD2
+timedInterrupt	KEYWORD2
+detachInterrupt	KEYWORD2
+stop	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+_WDT_DO_ONCE	LITERAL1
+_WDT_REPEAT	LITERAL1
